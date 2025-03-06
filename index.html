@@ -3,40 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jetrho V. Dela Cruz - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Lumpia Life | Jetrho V. Dela Cruz</title>
+    <link rel="stylesheet" href="lumpiastyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Jetrho V. Dela Cruz</h1>
-        <h2>BS Information Technology</h2>
+        <div class="recipe-container">
+            <div class="chef-hat">
+                <img src="image.png" alt="Chef Jetrho" class="chef-img">
+                <h1>How to make lumpia</h1>
+            </div>
+            <nav class="recipe-nav">
+                <ul>
+                    <li><a href="index.html" class="active">🍤 Home</a></li>
+                    <li><a href="subjects.html">🥟 Subjects</a></li>
+                    <li><a href="#about">🥕 About</a></li>
+                    <li><a href="#projects">🍚 Projects</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h2>Subjects Taken</h2>
-            <input type="text" id="search" placeholder="Search courses..." onkeyup="searchCourses()">
-            <table id="courses-table">
-                <thead>
-                    <tr>
-                        <th>Year Level</th>
-                        <th>Semester</th>
-                        <th>Code</th>
-                        <th>Description</th>
-                        <th>Credit</th>
-                    </tr>
-                </thead>
-                <tbody id="courses-list">
-                    <!-- Courses will be inserted here -->
-                </tbody>
-            </table>
+        <section id="home" class="recipe-hero">
+            <div class="recipe-container">
+                <h2>Welcome to My Lumpia Life!</h2>
+                <p>Lumpia 4 lyf, served fresh by Jitrue Dela Cruz.</p>
+                <a href="#about" class="recipe-btn">🥢 Taste More</a>
+            </div>
+        </section>
+
+        <section id="about" class="recipe-section">
+            <div class="recipe-container">
+                <h2>🥕 About Your Chef</h2>
+                <p>Hi, I’m Jetrho V. Dela Cruz! I’m cooking up a storm in the world of IT, blending coding skills with a pinch of passion. My recipe? Hard work, curiosity, and a love for tech that’s as crispy as a perfect lumpia!</p>
+            </div>
+        </section>
+
+        <section id="projects" class="recipe-section">
+            <div class="recipe-container">
+                <h2>🍚 My Special Dishes</h2>
+                <div class="recipe-grid">
+                    <div class="recipe-card">
+                        <h3>Project Lumpia #1</h3>
+                        <p>LUMPIA.</p>
+                    </div>
+                    <div class="recipe-card">
+                        <h3>Project Lumpia #2</h3>
+                        <p>BANANA TURON!</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Jetrho V. Dela Cruz. All rights reserved.</p>
+        <div class="recipe-container">
+            <p>🍤 Cooked with Love by Jetrho Dela Cruz, 2025</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="lumpiascript.js"></script>
 </body>
 </html>

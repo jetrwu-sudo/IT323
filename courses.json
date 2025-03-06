@@ -1,38 +1,305 @@
 {
     "courses": [
-      {"year_term": "1st Year - 1st Semester", "code": "IT111", "title": "Introduction to Computing", "credit": 3},
-      {"year_term": "1st Year - 1st Semester", "code": "IT112", "title": "Computer Programming 1", "credit": 3},
-      {"year_term": "1st Year - 1st Semester", "code": "PurCom", "title": "Purposive Communication", "credit": 3},
-      {"year_term": "1st Year - 1st Semester", "code": "RPH", "title": "Readings in Philippine History", "credit": 3},
-      {"year_term": "1st Year - 1st Semester", "code": "TCW", "title": "The Contemporary World", "credit": 3},
-      {"year_term": "1st Year - 1st Semester", "code": "MMW", "title": "Mathematics in the Modern World", "credit": 3},
-      {"year_term": "1st Year - 1st Semester", "code": "PATH FIT 1", "title": "Movement Enhancement", "credit": 2},
-      {"year_term": "1st Year - 1st Semester", "code": "NSTP101", "title": "ROTC/CWTS/LTS I", "credit": 3},
-      
-      {"year_term": "1st Year - 2nd Semester", "code": "IT121", "title": "Computer Programming 2", "credit": 3, "pre_req": ["IT111", "IT112"]},
-      {"year_term": "1st Year - 2nd Semester", "code": "IT122", "title": "Data Structures and Algorithms", "credit": 3, "pre_req": ["IT111", "IT112"]},
-      {"year_term": "1st Year - 2nd Semester", "code": "IT123", "title": "Discrete Mathematics", "credit": 3, "pre_req": ["MMW"]},
-      {"year_term": "1st Year - 2nd Semester", "code": "ArtApp", "title": "Art Appreciation", "credit": 3},
-      {"year_term": "1st Year - 2nd Semester", "code": "UTS", "title": "Understanding the Self", "credit": 3},
-      {"year_term": "1st Year - 2nd Semester", "code": "PATH FIT 2", "title": "Fitness Activity and Exercises", "credit": 2, "pre_req": ["PATH FIT 1"]},
-      {"year_term": "1st Year - 2nd Semester", "code": "NSTP102", "title": "ROTC/CWTS/LTS II", "credit": 3, "pre_req": ["NSTP101"]},
-      {"year_term": "1st Year - 2nd Semester", "code": "STS", "title": "Science, Technology and Society", "credit": 3},
-      
-      {"year_term": "2nd Year - 1st Semester", "code": "IT211", "title": "Intro to Human Computer Interaction", "credit": 3, "pre_req": ["IT121"]},
-      {"year_term": "2nd Year - 1st Semester", "code": "IT212", "title": "Fundamentals of Database Systems", "credit": 3, "pre_req": ["IT121", "IT122"]},
-      {"year_term": "2nd Year - 1st Semester", "code": "IT213", "title": "Platform Technologies", "credit": 3, "pre_req": ["IT121"]},
-      {"year_term": "2nd Year - 1st Semester", "code": "IT214", "title": "Object Oriented Programming", "credit": 3, "pre_req": ["IT121", "IT122"]},
-      {"year_term": "2nd Year - 1st Semester", "code": "IT215", "title": "Accounting Principles", "credit": 3, "pre_req": ["MMW"]},
-      {"year_term": "2nd Year - 1st Semester", "code": "PATH FIT 3", "title": "Physical Activity Towards Health and Fitness 1", "credit": 2},
-      {"year_term": "2nd Year - 1st Semester", "code": "EnviSci", "title": "Environmental Science", "credit": 3},
-      
-      {"year_term": "2nd Year - 2nd Semester", "code": "IT221", "title": "Information Management", "credit": 3, "pre_req": ["IT212"]},
-      {"year_term": "2nd Year - 2nd Semester", "code": "IT222", "title": "Networking 1", "credit": 3, "pre_req": ["IT213"]},
-      {"year_term": "2nd Year - 2nd Semester", "code": "IT223", "title": "Web Systems and Technologies", "credit": 3, "pre_req": ["IT211", "IT214"]},
-      {"year_term": "2nd Year - 2nd Semester", "code": "IT224", "title": "Systems Integration and Architecture", "credit": 3, "pre_req": ["IT212", "IT213", "IT214"]},
-      {"year_term": "2nd Year - 2nd Semester", "code": "Ethc", "title": "Ethics", "credit": 3},
-      {"year_term": "2nd Year - 2nd Semester", "code": "Rizal", "title": "Life and Works of Rizal", "credit": 3},
-      {"year_term": "2nd Year - 2nd Semester", "code": "PATH FIT 4", "title": "Physical Activity Towards Health and Fitness 2", "credit": 2, "pre_req": ["PATH FIT 3"]}
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "IT111",
+            "description": "Introduction to Computing",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "IT112",
+            "description": "Computer Programming 1",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "PurCom",
+            "description": "Purposive Communication",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "RPH",
+            "description": "Readings in Philippine History",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "TCW",
+            "description": "The Contemporary World",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "MMW",
+            "description": "Mathematics in the Modern World",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "PATH FIT 1",
+            "description": "Movement Enhancement",
+            "credit": "2.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "1st",
+            "code": "NSTP101",
+            "description": "ROTC/CWTS/LTS I",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "IT121",
+            "description": "Computer Programming 2",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "IT122",
+            "description": "Data Structures and Algorithms",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "IT123",
+            "description": "Discrete Mathematics",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "ArtApp",
+            "description": "Art Appreciation",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "UTS",
+            "description": "Understanding the Self",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "PATH FIT 2",
+            "description": "Fitness Activity and Exercises",
+            "credit": "2.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "NSTP 102",
+            "description": "ROTC/CWTS/LTS II",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "1st",
+            "sem": "2nd",
+            "code": "STS",
+            "description": "Science, Technology and Society",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "1st",
+            "code": "IT211",
+            "description": "Intro to Human Computer Interaction",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "1st",
+            "code": "IT212",
+            "description": "Fundamentals of Database Systems",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "1st",
+            "code": "IT213",
+            "description": "Platform Technologies",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "1st",
+            "code": "IT214",
+            "description": "Object Oriented Programming",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "1st",
+            "code": "IT215",
+            "description": "Accounting Principles",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "1st",
+            "code": "PATH FIT 3",
+            "description": "Physical Activity Towards Health and Fitness 1",
+            "credit": "2.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "1st",
+            "code": "EnviSci",
+            "description": "Environmental Science",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "2nd",
+            "code": "IT221",
+            "description": "Information Management",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "2nd",
+            "code": "IT222",
+            "description": "Networking 1",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "2nd",
+            "code": "IT223",
+            "description": "Web Systems and Technologies",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "2nd",
+            "code": "IT224",
+            "description": "Systems Integration and Architecture",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "2nd",
+            "code": "Ethc",
+            "description": "Ethics",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "2nd",
+            "code": "Rizal",
+            "description": "Life and Works of Rizal",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "2nd",
+            "sem": "2nd",
+            "code": "PATH FIT 4",
+            "description": "Physical Activity Towards Health and Fitness 2",
+            "credit": "2.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "1st",
+            "code": "IT311",
+            "description": "Information Assurance and Security",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "1st",
+            "code": "IT312",
+            "description": "Networking 2",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "1st",
+            "code": "IT313",
+            "description": "Mobile Programming",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "1st",
+            "code": "IT314",
+            "description": "Software Engineering",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "1st",
+            "code": "IT315",
+            "description": "IT Elective 1",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "1st",
+            "code": "ES211a",
+            "description": "Technopreneurship",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "2nd",
+            "code": "IT321",
+            "description": "CAPSTONE Project and Research 1",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "2nd",
+            "code": "IT322",
+            "description": "Integrative Programming and Technologies",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "2nd",
+            "code": "IT323",
+            "description": "Applications Development and Emerging Technologies",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "2nd",
+            "code": "IT324",
+            "description": "Quantitative Methods",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "2nd",
+            "code": "IT325",
+            "description": "IT Elective 2",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "2nd",
+            "code": "PICPE",
+            "description": "Philippine Indigenous Communities and Peace Education",
+            "credit": "3.0"
+        },
+        {
+            "year-level": "3rd",
+            "sem": "2nd",
+            "code": "FreeElec",
+            "description": "Foreign Language",
+            "credit": "3.0"
+        }
     ]
-  }
-  
+}

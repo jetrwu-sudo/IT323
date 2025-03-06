@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: #fff5e6;
+    color: #4a2c00;
+    line-height: 1.6;
+    background-image: url('https://via.placeholder.com/1500x1500/fff5e6/ffe6cc?text=Subtle+Food+Pattern');
+    background-size: cover;
+}
+
+.recipe-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #ffcc66;
+    padding: 20px 0;
+    border-bottom: 5px solid #ff9933;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .recipe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.chef-hat {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.chef-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #ff9933;
+    background: #fff;
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #4a2c00;
+    text-shadow: 2px 2px #ff9933;
+}
+
+.recipe-nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.recipe-nav ul li a {
+    color: #4a2c00;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.recipe-nav ul li a:hover,
+.recipe-nav ul li a.active {
+    background: #ff9933;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 1px 1px #4a2c00;
+}
+
+.recipe-hero {
+    background: linear-gradient(to bottom, #ffcc66, #ffe6cc);
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 5px dashed #ff9933;
+}
+
+.recipe-hero h2 {
+    font-size: 3.5rem;
+    color: #4a2c00;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #ffcc66;
+}
+
+.recipe-hero p {
+    font-size: 1.8rem;
+    color: #663300;
+}
+
+.recipe-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ff9933;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all 0.3s;
+    box-shadow: 3px 3px #4a2c00;
+}
+
+.recipe-btn:hover {
+    background: #e68a00;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px #4a2c00;
+}
+
+.recipe-section {
+    padding: 60px 20px;
+    background: #fff;
+    margin: 20px 0;
+    border: 3px solid #ffcc66;
+    border-radius: 20px;
+    box-shadow: 5px 5px #ff9933;
+}
+
+.recipe-section h2 {
+    font-size: 3rem;
+    color: #4a2c00;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #ffcc66;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.recipe-card {
+    background: #ffe6cc;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px dashed #ff9933;
+    text-align: center;
+}
+
+.recipe-card h3 {
+    font-size: 2rem;
+    color: #663300;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background: #fff;
+    border: 3px solid #ff9933;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px dashed #ffcc66;
+}
+
+th {
+    background: #ff9933;
+    color: #fff;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px #4a2c00;
+}
+
+td {
+    font-size: 1.6rem;
+    color: #4a2c00;
+}
+
+tr:nth-child(even) {
+    background: #ffe6cc;
+}
+
+tr:hover {
+    background: #ffcc66;
+}
+
+#searchBar {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ff9933;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    background: #fff;
+    color: #4a2c00;
+    box-shadow: 2px 2px #ffcc66;
+}
+
+#searchBar::placeholder {
+    color: #663300;
+    opacity: 0.8;
+}
+
+footer {
+    background: #ffcc66;
+    padding: 20px;
+    text-align: center;
+    color: #4a2c00;
+    border-top: 5px solid #ff9933;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    header .recipe-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recipe-nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .recipe-hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .recipe-hero p {
+        font-size: 1.5rem;
+    }
+}
