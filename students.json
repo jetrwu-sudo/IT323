@@ -1,0 +1,20 @@
+{
+    "students": [
+      {
+        "name": "Jetrho Dela Cruz",
+        "age": 21,
+        "course": "Information Technology"
+      },
+      {
+        "name": "Bob Smith",
+        "age": 22,
+        "course": "Computer Science"
+      },
+      {
+        "name": "Vince Isaac",
+        "age": 19,
+        "course": "Data Science"
+      }
+    ]
+  }
+  
