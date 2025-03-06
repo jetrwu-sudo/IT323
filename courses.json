@@ -1,0 +1,38 @@
+{
+    "courses": [
+      {"year_term": "1st Year - 1st Semester", "code": "IT111", "title": "Introduction to Computing", "credit": 3},
+      {"year_term": "1st Year - 1st Semester", "code": "IT112", "title": "Computer Programming 1", "credit": 3},
+      {"year_term": "1st Year - 1st Semester", "code": "PurCom", "title": "Purposive Communication", "credit": 3},
+      {"year_term": "1st Year - 1st Semester", "code": "RPH", "title": "Readings in Philippine History", "credit": 3},
+      {"year_term": "1st Year - 1st Semester", "code": "TCW", "title": "The Contemporary World", "credit": 3},
+      {"year_term": "1st Year - 1st Semester", "code": "MMW", "title": "Mathematics in the Modern World", "credit": 3},
+      {"year_term": "1st Year - 1st Semester", "code": "PATH FIT 1", "title": "Movement Enhancement", "credit": 2},
+      {"year_term": "1st Year - 1st Semester", "code": "NSTP101", "title": "ROTC/CWTS/LTS I", "credit": 3},
+      
+      {"year_term": "1st Year - 2nd Semester", "code": "IT121", "title": "Computer Programming 2", "credit": 3, "pre_req": ["IT111", "IT112"]},
+      {"year_term": "1st Year - 2nd Semester", "code": "IT122", "title": "Data Structures and Algorithms", "credit": 3, "pre_req": ["IT111", "IT112"]},
+      {"year_term": "1st Year - 2nd Semester", "code": "IT123", "title": "Discrete Mathematics", "credit": 3, "pre_req": ["MMW"]},
+      {"year_term": "1st Year - 2nd Semester", "code": "ArtApp", "title": "Art Appreciation", "credit": 3},
+      {"year_term": "1st Year - 2nd Semester", "code": "UTS", "title": "Understanding the Self", "credit": 3},
+      {"year_term": "1st Year - 2nd Semester", "code": "PATH FIT 2", "title": "Fitness Activity and Exercises", "credit": 2, "pre_req": ["PATH FIT 1"]},
+      {"year_term": "1st Year - 2nd Semester", "code": "NSTP102", "title": "ROTC/CWTS/LTS II", "credit": 3, "pre_req": ["NSTP101"]},
+      {"year_term": "1st Year - 2nd Semester", "code": "STS", "title": "Science, Technology and Society", "credit": 3},
+      
+      {"year_term": "2nd Year - 1st Semester", "code": "IT211", "title": "Intro to Human Computer Interaction", "credit": 3, "pre_req": ["IT121"]},
+      {"year_term": "2nd Year - 1st Semester", "code": "IT212", "title": "Fundamentals of Database Systems", "credit": 3, "pre_req": ["IT121", "IT122"]},
+      {"year_term": "2nd Year - 1st Semester", "code": "IT213", "title": "Platform Technologies", "credit": 3, "pre_req": ["IT121"]},
+      {"year_term": "2nd Year - 1st Semester", "code": "IT214", "title": "Object Oriented Programming", "credit": 3, "pre_req": ["IT121", "IT122"]},
+      {"year_term": "2nd Year - 1st Semester", "code": "IT215", "title": "Accounting Principles", "credit": 3, "pre_req": ["MMW"]},
+      {"year_term": "2nd Year - 1st Semester", "code": "PATH FIT 3", "title": "Physical Activity Towards Health and Fitness 1", "credit": 2},
+      {"year_term": "2nd Year - 1st Semester", "code": "EnviSci", "title": "Environmental Science", "credit": 3},
+      
+      {"year_term": "2nd Year - 2nd Semester", "code": "IT221", "title": "Information Management", "credit": 3, "pre_req": ["IT212"]},
+      {"year_term": "2nd Year - 2nd Semester", "code": "IT222", "title": "Networking 1", "credit": 3, "pre_req": ["IT213"]},
+      {"year_term": "2nd Year - 2nd Semester", "code": "IT223", "title": "Web Systems and Technologies", "credit": 3, "pre_req": ["IT211", "IT214"]},
+      {"year_term": "2nd Year - 2nd Semester", "code": "IT224", "title": "Systems Integration and Architecture", "credit": 3, "pre_req": ["IT212", "IT213", "IT214"]},
+      {"year_term": "2nd Year - 2nd Semester", "code": "Ethc", "title": "Ethics", "credit": 3},
+      {"year_term": "2nd Year - 2nd Semester", "code": "Rizal", "title": "Life and Works of Rizal", "credit": 3},
+      {"year_term": "2nd Year - 2nd Semester", "code": "PATH FIT 4", "title": "Physical Activity Towards Health and Fitness 2", "credit": 2, "pre_req": ["PATH FIT 3"]}
+    ]
+  }
+  
